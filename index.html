@@ -3,11 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Paisdela</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-        <link href='http://fonts.googleapis.com/css?family=Questrial|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Questrial%7cLato:100,400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="style.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
@@ -19,26 +19,24 @@
             <div class="bgFull">
                 <div class="container">
                     <div class="row">
-                        <div class="header_top clearfix block u_gray">
-                            <h1 class="col-xs-12 col-sm-6 col-md-6 center_verticalHeader no_padding">H1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h1>
-                            <div class="col-xs-12 col-sm-6 col-md-6 center_verticalHeader header_topMenu no_padding">
+                        <div class="header_top gray">
+                            <h1 class="col-xs-12 col-sm-6 col-md-5 col-lg-6 center_verticalHeader no_padding hidden-xs">H1 Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h1>
+                            <div class="col-xs-12 col-sm-6 col-md-7 col-lg-6 center_verticalHeader header_topMenu no_padding text-right">
                                 <span>
                                     TELÉFONO <strong>947 140 057</strong>
                                 </span>
-                                <nav>
-                                    <ul>
-                                        <li class="flaticon-preguntasFrecuentes"><a href="#">Preguntas frecuentes</a></li>
-                                        <li class="flaticon-blog"><a href="#">Blog</a></li>
-                                        <li class="flaticon-location"><a href="#">Ubicación y Contacto</a></li>
-                                    </ul>
-                                </nav>
+                                <ul class="hidden-xs">
+                                    <li class="flaticon-preguntasFrecuentes"><a href="#">Preguntas frecuentes</a></li>
+                                    <li class="flaticon-blog"><a href="#">Blog</a></li>
+                                    <li class="flaticon-location"><a href="#">Ubicación y Contacto</a></li>
+                                </ul>
                             </div>
                         </div>
                         <div class="header_topLogos">
-                            <a href="#"><img src="img/header/logo_delfines.jpg" alt=""></a>
                             <a href="#"><img src="img/header/logo_robles.jpg" alt=""></a>
+                            <a href="#"><img src="img/header/logo_delfines.jpg" alt=""></a>
                         </div>
-                        <nav class="main_principal">
+                        <nav class="main_principal hidden-xs">
                             <ul>
                                 <li><a href="#">Quienes somos</a></li>
                                 <li><a href="#">Áreas de trabajo</a></li>
@@ -65,9 +63,9 @@
             </div>
         </header>
         <section class="block_section">
-            <div class="container">
-                <div class="row">
-                    <div class="section_top">
+            <div class="section_top">
+                <div class="container">
+                    <div class="row">
                         <div class="col-xs-12 col-sm-6 col-md-6">
                             <div class="img_section">
                                 <img class="img-responsive" src="img/section/robles_empresa.jpg" alt="">
@@ -115,64 +113,117 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="block_top">
-                        <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
-                        <strong>síganos en</strong>
-                        <ul class="redes">
-                            <li class="flaticon-facebook"><a class="text-hide" href="#">Facebook</a></li>
-                            <li class="flaticon-googlePlus"><a class="text-hide" href="#">Google Plus</a></li>
-                        </ul>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-offset-5 col-md-3 vcenter">
-                            <div class="search_form">
-                                <form method="get" action="" id="searchform" class="search">
-                                    <input class="search_iput" type="search" name="s" id="search" placeholder=" Buscar en el sitio...">
-                                    <button type="submit" class="flaticon-search" value="search"></button>
-                                </form>
+            <div class="section_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="block_top">
+                            <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+                            <strong>síganos en</strong>
+                            <div class="redes">
+                                <a href="#">
+                                    <span class="flaticon-facebook">facebook</span>
+                                </a>
+                                <a href="#">
+                                    <span class="flaticon-googlePlus">Google Plus</span>
+                                </a>
+                            </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 col-md-offset-5 col-md-3 vcenter">
+                                <div class="search_form">
+                                    <form method="get" action="#" id="searchform" class="search">
+                                        <input class="search_iput" type="search" name="s" id="search" placeholder=" Buscar en el sitio...">
+                                        <button type="submit" class="flaticon-search" value="search"></button>
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block_bottom">
-                        <div class="tabs_content col-xs-12 col-sm-6 col-md-7 no_padding">
-                            <ul class="tabs">
-                                <li class="flaticon-centroDiscapacitados tab_item active">
-                                    <a class="text-hide" id="tab_001" href="#">centro de discapacitados</a>
-                                </li>
-                                <li class="flaticon-saludMental tab_item">
-                                    <a class="text-hide" id="tab_002" href="#">salud mental</a>
-                                </li>
-                            </ul>
-                            <div class="tabs_container">
-                                <div id="tab_001" class="tab">
-                                    <h5>Centro de discapacitados</h5>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-                                    <ul>
-                                        <li><a href="#">Residencia para discapacitados</a></li>
-                                        <li><a href="#">Trabajo para discapacitados</a></li>
-                                        <li><a href="#">Centro de rehabilitación psicosocial</a></li>
-                                        <li><a href="#">Actividades para personas con discapacidad</a></li>
-                                        <li><a href="#">Programa de habilidades sociales</a></li>
-                                    </ul>
-                                </div>
-                                <div id="tab_002" class="tab">
-                                    <h5>Centro de salud mental</h5>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
-                                    <ul>
-                                        <li><a href="#">Residencia enfermos mentales</a></li>
-                                        <li><a href="#">Terapia cognitivo-conductual</a></li>
-                                        <li><a href="#">Terapia psicosocial</a></li>
-                                        <li><a href="#">Psicopatología</a></li>
-                                        <li><a href="#">Trastornos mentales</a></li>
-                                    </ul>
-                                </div>
-                            </div>                            
+                        <div class="block_bottom">
+                            <div class="tabs_content col-xs-12 col-sm-6 col-md-6 col-md-offset-1 no_padding">
+                                <ul class="tabs">
+                                    <li class="flaticon-centroDiscapacitados tab_item active">
+                                        <a class="text-hide" href="#">centro de discapacitados</a>
+                                    </li>
+                                    <li class="flaticon-saludMental tab_item">
+                                        <a class="text-hide" href="#">salud mental</a>
+                                    </li>
+                                </ul>
+                                <div class="tabs_container">
+                                    <div class="tab">
+                                        <h5>Centro de discapacitados</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                        <ul>
+                                            <li><a href="#">Residencia para discapacitados</a></li>
+                                            <li><a href="#">Trabajo para discapacitados</a></li>
+                                            <li><a href="#">Centro de rehabilitación psicosocial</a></li>
+                                            <li><a href="#">Actividades para personas con discapacidad</a></li>
+                                            <li><a href="#">Programa de habilidades sociales</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab">
+                                        <h5>Centro de salud mental</h5>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam</p>
+                                        <ul>
+                                            <li><a href="#">Residencia enfermos mentales</a></li>
+                                            <li><a href="#">Terapia cognitivo-conductual</a></li>
+                                            <li><a href="#">Terapia psicosocial</a></li>
+                                            <li><a href="#">Psicopatología</a></li>
+                                            <li><a href="#">Trastornos mentales</a></li>
+                                        </ul>
+                                    </div>
+                                </div>                            
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <footer class="footer bgFull">
+            <div class="container">
+                <div class="row">
+                    <div class="footer_top clearfix">
+                        <div class="col-xs-12 col-sm-6 col-md-3 no_padding">
+                            <address>
+                                <strong>Dirección centro los robles:</strong><br>
+                                C/ Camino Real, 75<br>
+                                VILLASANTE DE MONTIJA CP: 09569<br>
+                                Burgos
+                            </address>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-1 no_padding">
+                            <address>
+                                <strong>Dirección centro los delfines:</strong><br>
+                                C/ Tizona, s/n<br>
+                                MEDINA DE POMAR CP: 09500<br>
+                                Burgos
+                            </address>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-1 col-md-offset-1 no_padding">
+                            <strong>Teléfono:</strong><br>
+                            947 140 057
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-2 col-md-offset-1 no_padding">
+                            <strong>Email:</strong><br>
+                            <a href="mailto:robledelfi@telefonica.net">robledelfi@telefonica.net</a>
+                        </div>
+                    </div>
+                    <div class="footer_bottom">
+                        <div class="col-xs-12 col-sm-6 col-md-2 no_padding displayIn">
+                            <p class="text-left">Powered by <a href="#" target="_blank">Páginas Amarillas</a></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4 no_padding displayIn">
+                            <ul class="main_avisos">
+                                <li><a href="#">Mapa web</a></li>
+                                <li><a href="#">Aviso legal</a></li>
+                                <li><a href="#">Política de privacidad</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 no_padding displayIn">
+                            <p class="text-right">Esta página web está optimizada para verse en Internet Explorer 9+,  Mozilla Firefox 25+ y Google Chrome 33+</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </footer>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
         <script src="js/init.js"></script>
