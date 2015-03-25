@@ -743,7 +743,7 @@ textarea:-ms-input-placeholder {
     margin-right: 50px;
   }
   .header_topLogos img {
-    width: 100%;    
+    width: auto;    
   }
   .slider_block .block_title {
     bottom: -102px;
